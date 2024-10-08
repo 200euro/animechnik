@@ -5,11 +5,6 @@ burger.addEventListener('click', () => {
    nav.classList.toggle('active')
 })    
 
-
-
-
-
-
 const swiperAlbum1 = new Swiper('.album-swiper-1', {
 
    loop: true,
@@ -25,8 +20,6 @@ autoplay: {
 
 
  });
-
-
 
  const swiperAlbum2 = new Swiper('.album-swiper-2', {
 
