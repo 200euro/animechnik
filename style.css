@@ -120,6 +120,9 @@ p{
   text-align: center;
   font-size: 22px;
   margin-bottom: 20px;
+
+    height: 30px;
+
 }
 
 div{
@@ -204,7 +207,13 @@ h2{
 
 
 }
+.meet__box{
 
+
+  p{
+    height: 30px;
+  }
+}
 
 
 
@@ -261,6 +270,16 @@ text-transform: uppercase;
     
 }
 
+
+&:hover{
+  h3{
+    font-size: 40px;
+
+  }
+  p{
+  height: 30px;
+  }
+}
 }
 .card {
 background-repeat: no-repeat;
@@ -309,15 +328,7 @@ height: 0;
 }
 
 
-&:hover{
-  h3{
-    font-size: 40px;
 
-  }
-  p{
-  height: 30px;
-  }
-}
 
 
 .card-1 {
